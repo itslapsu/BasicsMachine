@@ -15,14 +15,14 @@ def func(cord1, cord2, visual = 'all'):
         plt.show()
     elif visual == 'print':
         if b < 0:
-            print(f'{a}*x{b}*y={c}')
+            print(f'{a}x{b}y={c}')
         else:
-            print(f'{a}*x+{b}*y={c}')
+            print(f'{a}x+{b}y={c}')
     elif visual == 'all':
         if b < 0:
-            print(f'{a}*x{b}*y={c}')
+            print(f'{a}x{b}y={c}')
         else:
-            print(f'{a}*x+{b}*y={c}')
+            print(f'{a}x+{b}y={c}')
 
         plt.plot(cord1, cord2)
         plt.plot(cord1, cord2, 'o')
